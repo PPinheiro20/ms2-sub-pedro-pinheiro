@@ -1,3 +1,33 @@
+/* Estilo geral da página */
+
 body {
-    background-color: red !important;
+    min-height: 100vh;
+}
+
+
+/* Efeito nos cards */
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+
+/* Move o card levemente para cima ao passar o mouse */
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Estilo dos títulos das seções */
+
+section h2 {
+    letter-spacing: 0.5px;
+}
+
+
+/* Espaçamento do rodapé */
+
+footer {
+    margin-top: 0;
 }
