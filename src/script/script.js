@@ -5,4 +5,4 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 // Importa o CSS personalizado
-import "./style.css";
+import "../style/style.css"
